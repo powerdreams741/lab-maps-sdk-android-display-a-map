@@ -18,7 +18,7 @@ allprojects {
     repositories {
         google()
         jcenter()
-        // Replace this line with the TomTom Maven repository
+        maven {url "https://maven.tomtom.com.8443.nexus/content/repositories/releases "
 
     }
 }
